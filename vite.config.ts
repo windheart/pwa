@@ -48,7 +48,9 @@ export default defineConfig({
             "handle_links": "preferred",
             "launch_handler": {
                 "client_mode": "navigate-existing"
-            }
+            },
+            "dir": "ltr",
+            "prefer_related_applications": false
         }
     })],
     build: {
