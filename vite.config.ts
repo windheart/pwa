@@ -7,8 +7,8 @@ export default defineConfig({
         registerType: 'autoUpdate',
         includeAssets: ['favicon.ico', 'apple-touch-icon-180x180.png', 'maskable-icon-512x512.svg'],
         manifest: {
-            name: 'My PWA',
-            short_name: 'MyPWA',
+            name: 'My PWA 2',
+            short_name: 'MyPWA2',
             description: 'My Awesome PWA',
             theme_color: '#ffffff',
             icons: [
