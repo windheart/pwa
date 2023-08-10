@@ -1,8 +1,0 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.windheart.twa",
-        "sha256_cert_fingerprints": ["9A:74:DA:78:4B:22:AC:2A:A4:07:A4:6C:CA:36:CB:D4:FF:81:65:00:0F:B9:5F:C3:63:79:42:B2:1A:32:98:5F"]
-      }
-    }]
