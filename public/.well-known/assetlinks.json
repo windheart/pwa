@@ -2,7 +2,7 @@
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
         "namespace": "android_app",
-        "package_name": "io.github.windheart.twa",
-        "sha256_cert_fingerprints": ["00:0E:81:4B:89:E4:25:E5:00:CD:10:4B:16:49:1B:A8:6C:CC:B7:24:F5:35:1F:26:8A:6F:85:31:0B:6F:34:8B"]
+        "package_name": "app.netlify.aer_pwa.twa",
+        "sha256_cert_fingerprints": ["6F:D1:23:52:E9:26:4B:49:0B:1E:18:74:53:8F:71:C1:CE:32:53:A2:60:1F:30:7F:38:EE:2C:8A:BA:74:09:CE"]
       }
     }]
