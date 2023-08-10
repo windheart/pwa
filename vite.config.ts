@@ -5,7 +5,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig({
     plugins: [react(), VitePWA({
         registerType: 'autoUpdate',
-        includeAssets: ['favicon.ico', 'apple-touch-icon-180x180.png', 'maskable-icon-512x512.svg', '.well-known/assetlinks.json'],
+        includeAssets: ['favicon.ico', 'apple-touch-icon-180x180.png', 'maskable-icon-512x512.svg'],
         manifest: {
             id: 'io.github.windheart.twa',
             name: 'My PWA',
@@ -55,7 +55,6 @@ export default defineConfig({
     })],
     build: {
         outDir: 'docs',
-        // manifest: true
     },
     server: {
         port: 3000,
