@@ -5,48 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e39d1edb-673d-4573-864b-012afefd4f12" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/dist/.well-known/assetlinks.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.well-known/assetlinks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/android/android-launchericon-144-144.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/android/android-launchericon-144-144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/android/android-launchericon-192-192.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/android/android-launchericon-192-192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/android/android-launchericon-48-48.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/android/android-launchericon-48-48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/android/android-launchericon-512-512.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/android/android-launchericon-512-512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/android/android-launchericon-72-72.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/android/android-launchericon-72-72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/android/android-launchericon-96-96.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/android/android-launchericon-96-96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/index-6d41fb21.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/index-6d41fb21.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/index-d526a0c5.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/index-d526a0c5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/icons.json" beforeDir="false" afterPath="$PROJECT_DIR$/docs/icons.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/100.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/1024.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/1024.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/114.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/114.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/120.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/120.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/128.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/128.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/144.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/152.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/152.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/167.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/167.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/180.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/180.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/192.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/256.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/29.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/32.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/50.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/512.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/57.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/58.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/58.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/60.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/64.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/72.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/76.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/80.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/80.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ios/87.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/ios/87.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/docs/manifest.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/registerSW.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/registerSW.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/workbox-27b29e6f.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/workbox-27b29e6f.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,22 +26,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/vladimirmokshin/dev/windheart.github.io",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
-    "ts.external.directory.path": "/Users/vladimirmokshin/dev/windheart.github.io/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vladimirmokshin/dev/windheart.github.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/vladimirmokshin/dev/windheart.github.io/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
