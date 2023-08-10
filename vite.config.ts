@@ -7,7 +7,6 @@ export default defineConfig({
         registerType: 'autoUpdate',
         includeAssets: ['favicon.ico', 'apple-touch-icon-180x180.png', 'maskable-icon-512x512.svg'],
         manifest: {
-            id: 'io.github.windheart.twa',
             name: 'My PWA',
             short_name: 'MyPWA',
             description: 'My Awesome PWA',
@@ -53,9 +52,6 @@ export default defineConfig({
             "prefer_related_applications": false
         }
     })],
-    build: {
-        outDir: 'docs',
-    },
     server: {
         port: 3000,
     },
