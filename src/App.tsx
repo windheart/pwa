@@ -12,7 +12,7 @@ function App() {
     }
 
     const onScanFailure = () => {
-        alert("Failed to scan the QR code.")
+        // alert("Failed to scan the QR code.")
         // Handle on success condition with the decoded text or result.
         // console.log(`Scan result: ${decodedText}`, decodedResult);
     }
