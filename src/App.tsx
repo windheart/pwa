@@ -19,7 +19,7 @@ function App() {
 
     useEffect(() => {
         scannerRef.current = new Html5QrcodeScanner(
-            "reader", { fps: 10, qrbox: 250, useBarCodeDetectorIfSupported: true }, false)
+            "reader", { fps: 10, useBarCodeDetectorIfSupported: true }, false)
 
         scannerRef.current.render(onScanSuccess, onScanFailure);
     }, []);
