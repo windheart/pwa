@@ -1,17 +1,17 @@
 import { useEffect, useRef } from 'react'
 import './App.css'
-import { Html5QrcodeScanner } from 'html5-qrcode'
+import { Html5QrcodeResult, Html5QrcodeScanner } from 'html5-qrcode'
 
 function App() {
     const scannerRef = useRef<Html5QrcodeScanner | null>(null);
 
-    const onScanSuccess = (decodedText, decodedResult) => {
+    const onScanSuccess = (decodedText: string, decodedResult: Html5QrcodeResult) => {
         alert(decodedText)
         // Handle on success condition with the decoded text or result.
         console.log(`Scan result: ${decodedText}`, decodedResult);
     }
 
-    const onScanFailure = (decodedText, decodedResult) => {
+    const onScanFailure = () => {
         alert("Failed to scan the QR code.")
         // Handle on success condition with the decoded text or result.
         // console.log(`Scan result: ${decodedText}`, decodedResult);
