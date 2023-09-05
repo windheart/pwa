@@ -1,19 +1,34 @@
-import { useState } from 'react'
+import { useEffect, useRef } from 'react'
 import './App.css'
+import { Html5QrcodeScanner } from 'html5-qrcode'
 
 function App() {
-  const [count, setCount] = useState(0)
+    const scannerRef = useRef<Html5QrcodeScanner | null>(null);
 
-  return (
-    <>
-      <h1>Counter</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-    </>
-  )
+    const onScanSuccess = (decodedText, decodedResult) => {
+        alert(decodedText)
+        // Handle on success condition with the decoded text or result.
+        console.log(`Scan result: ${decodedText}`, decodedResult);
+    }
+
+    const onScanFailure = (decodedText, decodedResult) => {
+        alert("Failed to scan the QR code.")
+        // Handle on success condition with the decoded text or result.
+        // console.log(`Scan result: ${decodedText}`, decodedResult);
+    }
+
+    useEffect(() => {
+        scannerRef.current = new Html5QrcodeScanner(
+            "reader", { fps: 10, qrbox: 250 }, false)
+
+        scannerRef.current.render(onScanSuccess, onScanFailure);
+    }, []);
+
+    return (
+        <>
+            <div style={{ width: 500 }} id="reader"/>
+        </>
+    )
 }
 
 export default App
