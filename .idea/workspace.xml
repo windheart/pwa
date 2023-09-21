@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e39d1edb-673d-4573-864b-012afefd4f12" name="Changes" comment="barcode test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +18,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2TggazHSJp4BrGMSd9XreSniV1F" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -74,7 +73,8 @@
       <workItem from="1691708713725" duration="40000" />
       <workItem from="1692064397647" duration="2028000" />
       <workItem from="1692373756731" duration="1000" />
-      <workItem from="1693929169099" duration="4768000" />
+      <workItem from="1693929169099" duration="5578000" />
+      <workItem from="1694048577485" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -244,7 +244,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693933810228</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="barcode test">
+      <option name="closed" value="true" />
+      <created>1693934737158</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1693934737158</updated>
+    </task>
+    <task id="LOCAL-00023" summary="barcode test">
+      <option name="closed" value="true" />
+      <created>1693934904004</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1693934904004</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

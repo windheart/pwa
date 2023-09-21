@@ -1,32 +1,26 @@
-import { useEffect, useRef } from 'react'
+import { useLayoutEffect, useState } from 'react'
 import './App.css'
-import { Html5QrcodeResult, Html5QrcodeScanner, Html5QrcodeSupportedFormats } from 'html5-qrcode'
 
 function App() {
-    const scannerRef = useRef<Html5QrcodeScanner | null>(null);
+    const [device, setDevice] = useState('Desktop')
 
-    const onScanSuccess = (decodedText: string, decodedResult: Html5QrcodeResult) => {
-        alert(decodedText)
-        // Handle on success condition with the decoded text or result.
-        console.log(`Scan result: ${decodedText}`, decodedResult);
-    }
+    useLayoutEffect(() => {
+        if (/Android/i.test(navigator.userAgent)) {
+            setDevice('Android')
+            return
+        }
 
-    const onScanFailure = () => {
-        // alert("Failed to scan the QR code.")
-        // Handle on success condition with the decoded text or result.
-        // console.log(`Scan result: ${decodedText}`, decodedResult);
-    }
+        if (/iPhone/i.test(navigator.userAgent)) {
+            setDevice('iOS')
+            return
+        }
 
-    useEffect(() => {
-        scannerRef.current = new Html5QrcodeScanner(
-            "reader", { fps: 10, qrbox: 300, useBarCodeDetectorIfSupported: true, formatsToSupport: [Html5QrcodeSupportedFormats.CODE_128] }, false)
-
-        scannerRef.current.render(onScanSuccess, onScanFailure);
+        setDevice('Desktop')
     }, []);
 
     return (
         <>
-            <div style={{ width: 500 }} id="reader"/>
+            <div>{device}</div>
         </>
     )
 }
