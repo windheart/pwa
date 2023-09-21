@@ -20,7 +20,7 @@ function App() {
 
     return (
         <>
-            <div>{device}</div>
+            <div style={{ fontSize: 24, fontWeight: 'bold' }}>{device}</div>
         </>
     )
 }
